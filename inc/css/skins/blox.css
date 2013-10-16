@@ -1,0 +1,143 @@
+/**
+ * @category CyberChimps Framework
+ * @package  Framework
+ * @since    1.0
+ * @author   CyberChimps
+ * @license  http://www.opensource.org/licenses/gpl-license.php GPL v2.0 (or later)
+ * @link     http://www.cyberchimps.com/
+ */
+/* ==================================== HTML ================================================== */
+a {
+  color: #c70503;
+}
+a:hover {
+  color: #630201;
+}
+/* ==================================== HEADER ================================================== */
+header#cc-header.row-fluid {}
+h2.site-title a,
+h2.site-description,
+.contact_details {
+  text-shadow: 2px 2px 2px #424141;
+}
+
+header#cc-header h2.site-title a {
+	color: #0766b9;
+}
+/* ==================================== MENU ================================================== */
+.main-navigation .nav > li > a:hover,
+.navbar .nav > .active > a,
+.navbar .nav > .active > a:hover,
+.navbar .nav > .active > a:focus,
+.navbar .nav li.dropdown.open > .dropdown-toggle,
+.navbar .nav li.dropdown.active > .dropdown-toggle,
+.navbar .nav li.dropdown.open.active > .dropdown-toggle,
+.navbar .nav > li.current-menu-ancestor,
+.navbar .nav > li.current_page_item {
+  /*background-color: #c70503;*/
+}
+.main-navigation .nav li ul li a:hover,
+.dropdown-menu .active > a,
+.dropdown-menu .active > a:hover {
+  /*color: #c70503;*/
+}
+.main-navigation .nav > li > a::before {
+	background-color: #eb297b;
+}
+.main-navigation .nav > li:hover > a {
+	border: 0px solid #660000;
+	background: #222222;
+	color: #ea297b;
+}
+@media (max-width: 979px) {
+  .navbar .btn-navbar {
+    border-color: #950402 #950402 #630201;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    background: #c70503;
+  }
+  .navbar .btn-navbar:hover,
+  .navbar .btn-navbar:active,
+  .navbar .btn-navbar.active {
+    background: #630201;
+  }
+  .nav-collapse .nav > li > a:hover,
+  .navbar-inverse .nav-collapse .dropdown-menu a:hover,
+  .navbar .nav > .active > a,
+  .navbar .nav > .active > a:hover,
+  .navbar .nav > .active > a:focus,
+  .navbar .nav li.dropdown.open > .dropdown-toggle,
+  .navbar .nav li.dropdown.active > .dropdown-toggle,
+  .navbar .nav li.dropdown.open.active > .dropdown-toggle,
+  .navbar .nav > .current-page-ancestor > a,
+  .navbar .nav > .current-menu-ancestor > a,
+  .navbar .nav > li.current_page_item,
+  .nav-collapse .dropdown-menu .active > a {
+    color: #950402;
+  }
+}
+/* ==================================== MAIN CONTENT ================================================== */
+h2.entry-title a {
+  color: #0766b9;
+}
+h2.entry-title a:hover {
+  color: #2291F2;
+}
+.entry-meta {
+  color: #0766b9;
+}
+.entry-meta a {
+  color: #0766b9;
+}
+/* ==================================== SIDEBAR & WIDGETS ================================================== */
+
+h2.box-widget-title {
+	color: #eb297b;
+}
+
+h3.widget-title {
+  color: #f90604;
+}
+/* ==================================== FOOTER ================================================== */
+#footer-widget-container h3.widget-title {
+  color: #f90604;
+}
+/* ==================================== WIDGETS & MISC ================================================== */
+#callout_container .btn-primary,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  border: 1px solid #950402;
+  border-color: #950402 #950402 #630201;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  background: #950402;
+  /* Old browsers */
+
+  background: -moz-linear-gradient(top, #c70503 0%, #950402 100%);
+  /* FF3.6+ */
+
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #c70503), color-stop(100%, #950402));
+  /* Chrome,Safari4+ */
+
+  background: -webkit-linear-gradient(top, #c70503 0%, #950402 100%);
+  /* Chrome10+,Safari5.1+ */
+
+  background: -o-linear-gradient(top, #c70503 0%, #950402 100%);
+  /* Opera 11.10+ */
+
+  background: -ms-linear-gradient(top, #c70503 0%, #950402 100%);
+  /* IE10+ */
+
+  background: linear-gradient(to bottom, #c70503 0%, #950402 100%);
+  /* W3C */
+
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@color', endColorstr='@dark', GradientType=0);
+  /* IE6-9 */
+
+}
+#callout_container .btn-primary:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover {
+  border-color: #950402 #950402 #630201;
+  background-color: #950402;
+}
