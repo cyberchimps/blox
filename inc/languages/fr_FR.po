@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Blox Pro\n"
+"Project-Id-Version: Blox Free\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-08-19 09:57:37 UTC\n"
-"PO-Revision-Date: 2013-10-16 13:37+0530\n"
+"POT-Creation-Date: 2013-08-19 10:07:13 UTC\n"
+"PO-Revision-Date: 2013-10-16 18:14+0530\n"
 "Last-Translator: Surya <surya@cyberchimps.com>\n"
 "Language-Team: French, France\n"
 "MIME-Version: 1.0\n"
@@ -109,7 +109,7 @@ msgstr ""
 
 #: ../../functions.php
 msgid "Pingback:"
-msgstr "Ping"
+msgstr "Pingback :"
 
 #: ../../functions.php
 msgid "(Edit)"
@@ -128,12 +128,8 @@ msgid "%1$s at %2$s"
 msgstr "%1$ s %2$ s"
 
 #: ../../functions.php
-msgid "Blox Pro Responsive WordPress Theme"
+msgid "Blox Free Professional Responsive WordPress Theme"
 msgstr "CyberChimps Pro Responsive WordPress Thème Starter"
-
-#: ../../functions.php
-msgid "Cyberchimps Link"
-msgstr "Lien Cyberchimps"
 
 #: ../../image.php
 msgid "Published"
@@ -141,7 +137,7 @@ msgstr "Publié"
 
 #: ../../image.php
 msgid "size"
-msgstr "Taille"
+msgstr "taille"
 
 #: ../../image.php
 msgid "in"
@@ -157,7 +153,7 @@ msgstr "Suivant"
 
 #: ../../image.php
 msgid "Post a comment"
-msgstr "Poster un commentaire"
+msgstr "poster un commentaire"
 
 #: ../../image.php
 msgid "or leave a trackback"
@@ -169,7 +165,7 @@ msgstr "URL de trackback"
 
 #: ../../image.php
 msgid "Comments are closed, but you can leave a trackback: "
-msgstr "Les commentaires sont clos mais vous pouvez laisser un rétrolien :"
+msgstr "Les commentaires sont fermés, mais vous pouvez laisser un trackback : "
 
 #: ../../image.php
 msgid "Trackbacks are closed, but you can %s"
@@ -177,7 +173,7 @@ msgstr "Rétroliens sont fermés, mais vous pouvez %s"
 
 #: ../../image.php
 msgid "post a comment"
-msgstr "Poster un commentaire"
+msgstr "poster un commentaire"
 
 #: ../../image.php
 msgid "Both comments and trackbacks are currently closed."

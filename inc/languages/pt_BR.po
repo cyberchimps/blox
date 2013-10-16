@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Blox Pro\n"
+"Project-Id-Version: Blox Free\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-08-19 09:57:37 UTC\n"
-"PO-Revision-Date: 2013-10-16 13:45+0530\n"
+"POT-Creation-Date: 2013-08-19 10:07:13 UTC\n"
+"PO-Revision-Date: 2013-10-16 18:13+0530\n"
 "Last-Translator: Surya <surya@cyberchimps.com>\n"
 "Language-Team: Portuguese, Brazil\n"
 "MIME-Version: 1.0\n"
@@ -110,6 +110,7 @@ msgstr ""
 "Criado com WordPress, plataforma de publicação pessoal sem&acirc;ntica de "
 "vanguarda."
 
+#: ../../functions.php
 msgid "Pingback:"
 msgstr "Pingback:"
 
@@ -130,12 +131,8 @@ msgid "%1$s at %2$s"
 msgstr "%1$ s em %2$ s"
 
 #: ../../functions.php
-msgid "Blox Pro Responsive WordPress Theme"
+msgid "Blox Free Professional Responsive WordPress Theme"
 msgstr "CyberChimps Pro Responsive WordPress Tema Inicial"
-
-#: ../../functions.php
-msgid "Cyberchimps Link"
-msgstr "Cyberchimps Link"
 
 #: ../../image.php
 msgid "Published"
@@ -143,7 +140,7 @@ msgstr "Publicado"
 
 #: ../../image.php
 msgid "size"
-msgstr "Tamanho"
+msgstr "tamanho"
 
 #: ../../image.php
 msgid "in"
@@ -151,26 +148,27 @@ msgstr "de"
 
 #: ../../image.php
 msgid "Previous"
-msgstr "anterior"
+msgstr "Anterior"
 
 #: ../../image.php
 msgid "Next"
-msgstr "próximo"
+msgstr "Próximo"
 
 #: ../../image.php
 msgid "Post a comment"
-msgstr "Enviar um comentário"
+msgstr "postar um comentário"
 
 #: ../../image.php
 msgid "or leave a trackback"
 msgstr "ou deixar um trackback"
 
+#: ../../image.php
 msgid "Trackback URL"
-msgstr "Trackback URL"
+msgstr ""
 
 #: ../../image.php
 msgid "Comments are closed, but you can leave a trackback: "
-msgstr "Comentários estão fechados, mas você pode deixar um trackback"
+msgstr "Comentários estão fechados, mas você pode deixar um trackback: "
 
 #: ../../image.php
 msgid "Trackbacks are closed, but you can %s"
@@ -178,7 +176,7 @@ msgstr "Trackbacks estão fechados, mas você pode %s"
 
 #: ../../image.php
 msgid "post a comment"
-msgstr "Enviar um comentário"
+msgstr "postar um comentário"
 
 #: ../../image.php
 msgid "Both comments and trackbacks are currently closed."
