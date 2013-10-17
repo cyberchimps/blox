@@ -132,7 +132,7 @@ function cyberchimps_upgrade_bar_pro_title() {
 
 //Upgrade link
 function cyberchimps_upgrade_bar_pro_link() {
-	$url = 'http://cyberchimps.com/store/Blox-pro/';
+	$url = 'http://cyberchimps.com/store/blox-pro/';
 
 	return $url;
 }
@@ -223,12 +223,13 @@ function cyberchimps_typography_sizes( $sizes ) {
 
 function cyberchimps_typography_faces( $orig ) {
 
-    $new = array(
-        '"Arimo", Arial, sans-serif'          => 'Arimo',
-        '"Autour One", Helvetica, Arial, sans-serif' => 'Autour One'
-    );
-    $new = array_merge( $new, $orig );
-    return $new;
+	$new = array(
+		'"Arimo", Arial, sans-serif'                 => 'Arimo',
+		'"Autour One", Helvetica, Arial, sans-serif' => 'Autour One'
+	);
+	$new = array_merge( $new, $orig );
+
+	return $new;
 }
 
 function cyberchimps_typography_styles( $styles ) {
@@ -238,23 +239,25 @@ function cyberchimps_typography_styles( $styles ) {
 }
 
 function cyberchimps_typography_defaults() {
-    $default = array(
-        'size'  => '14px',
-        'face'  => '"Arimo", Arial, sans-serif',
-        'style' => 'normal',
-        'color' => '#555555'
-    );
-    return $default;
+	$default = array(
+		'size'  => '14px',
+		'face'  => '"Arimo", Arial, sans-serif',
+		'style' => 'normal',
+		'color' => '#555555'
+	);
+
+	return $default;
 }
 
 function cyberchimps_typography_heading_defaults() {
-    $default = array(
-        'size'  => '',
-        'face'  => '"Autour One", Helvetica, Arial, sans-serif',
-        'style' => '',
-        'color' => '',
-    );
-    return $default;
+	$default = array(
+		'size'  => '',
+		'face'  => '"Autour One", Helvetica, Arial, sans-serif',
+		'style' => '',
+		'color' => '',
+	);
+
+	return $default;
 }
 
 add_filter( 'cyberchimps_typography_sizes', 'cyberchimps_typography_sizes' );
