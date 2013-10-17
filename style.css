@@ -1047,50 +1047,6 @@ a .portfolio-caption {
 	padding-top: 10px;
 }
 
-/*==================================== BREADCRUMBS =================================================*/
-
-.breadcrumbs {
-	margin-bottom: 20px;
-	padding: 10px 20px;
-	background: #ffffff;
-	font-size: 1.1em;
-}
-
-/*==================================== PAGINATION ==================================================*/
-
-.pagination ul li a {
-	margin-left: 5px;
-	border: 1px solid #000000;
-	background: #000000;
-}
-
-.pagination ul li a:hover {
-	background-color: #444444;
-}
-
-.pagination ul > li:first-child > a {
-	border: 1px solid #000000;
-	-webkit-border-radius: 0;
-	-moz-border-radius: 0;
-	border-radius: 0;
-	background: #000000;
-	color: #e76d33;
-}
-
-.pagination ul > li:last-child > a {
-	-webkit-border-radius: 0;
-	-moz-border-radius: 0;
-	border-radius: 0;
-}
-
-.pagination ul li span.dots {
-	margin-top: 1px;
-	margin-left: 5px;
-	border: 1px solid #000000;
-	background: #000000;
-	color: #e76d33;
-}
-
 /********************************************************************************************************************/
 /****************************************** MEDIA QUERIES ***********************************************************/
 /********************************************************************************************************************/
