@@ -140,6 +140,7 @@ header#cc-header h2.site-title {
 	margin-bottom: 20px;
 	padding-bottom: 5px;
 	font-size: 66px;
+	line-height: 1;
 }
 
 header#cc-header h2.site-title a {
