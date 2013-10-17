@@ -463,10 +463,12 @@ blockquote cite:before {
 }
 
 .more-content {
-	margin-bottom: 15px;
+	margin-bottom: 35px;
 	padding: 10px;
-	border: 1px solid #dddddd;
-	background: #ffffff;
+	background: #222222;
+	-webkit-box-shadow: 1px 1px 0 1px #3a3a3a, 2px 2px 0 1px #3a3a3a, 3px 3px 0 1px #3a3a3a, 4px 4px 0 1px #3a3a3a, 5px 5px 0 1px #3a3a3a, 6px 6px 0 1px #3a3a3a, 7px 7px 0 1px #3a3a3a, 8px 8px 0 1px #3a3a3a, 9px 9px 0 1px #3a3a3a, 10px 10px 0 1px #3a3a3a;
+	-moz-box-shadow: 1px 1px 0 1px #3a3a3a, 2px 2px 0 1px #3a3a3a, 3px 3px 0 1px #3a3a3a, 4px 4px 0 1px #3a3a3a, 5px 5px 0 1px #3a3a3a, 6px 6px 0 1px #3a3a3a, 7px 7px 0 1px #3a3a3a, 8px 8px 0 1px #3a3a3a, 9px 9px 0 1px #3a3a3a, 10px 10px 0 1px #3a3a3a;
+	box-shadow: 1px 1px 0 1px #3a3a3a, 2px 2px 0 1px #3a3a3a, 3px 3px 0 1px #3a3a3a, 4px 4px 0 1px #3a3a3a, 5px 5px 0 1px #3a3a3a, 6px 6px 0 1px #3a3a3a, 7px 7px 0 1px #3a3a3a, 8px 8px 0 1px #3a3a3a, 9px 9px 0 1px #3a3a3a, 10px 10px 0 1px #3a3a3a;
 }
 
 .previous-post {
