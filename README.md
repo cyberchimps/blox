@@ -1,4 +1,0 @@
-bloxfree
-========
-
-Blox Free Theme
