@@ -250,7 +250,7 @@ header #search #searchform {
 }
 
 .main-navigation .nav > li:hover > a {
-	border: 0px solid #660000;
+	border: none;
 	background: #222222;
 	color: #fbb963;
 }
@@ -339,7 +339,19 @@ header #search #searchform {
 }
 
 .navbar .btn-navbar {
+	margin-right: 20px;
 	margin-bottom: 5px;
+}
+
+.navbar .btn-navbar {
+	border-color: #f99c22;
+	background: #fab863;
+}
+.navbar .btn-navbar:hover,
+.navbar .btn-navbar:active,
+.navbar .btn-navbar.active {
+	background: #f99c22;
+	color: #fff;
 }
 
 .navbar .current-menu-ancestor.dropdown > a {
@@ -352,6 +364,22 @@ header #search #searchform {
 }
 
 @media (max-width: 979px) {
+
+	.main-navigation .nav {
+		padding: 0 5px 0 15px;
+	}
+
+	.main-navigation .nav > li:hover {
+		top: 0px;
+		left: 0;
+		-webkit-box-shadow: 1px 1px 0 1px #444444, 2px 2px 0 1px #444444, 3px 3px 0 1px #444444, 4px 4px 0 1px #444444, 5px 5px 0 1px #444444;
+		-moz-box-shadow: 1px 1px 0 1px #444444, 2px 2px 0 1px #444444, 3px 3px 0 1px #444444, 4px 4px 0 1px #444444, 5px 5px 0 1px #444444;
+		box-shadow: 1px 1px 0 1px #444444, 2px 2px 0 1px #444444, 3px 3px 0 1px #444444, 4px 4px 0 1px #444444, 5px 5px 0 1px #444444;
+	}
+
+	.main-navigation .nav > li > ul {
+		display: block;
+	}
 
 	.nav-collapse .nav > li > a,
 	.nav-collapse .dropdown-menu a, .nav-collapse .dropdown-menu a {
