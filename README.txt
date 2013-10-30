@@ -3,7 +3,7 @@ Blox Free responsive Wordpress theme
 
 - Blox Free
 - by CyberChimps http://cyberchimps.com
-- Licensed under GNU General Public License v2.0 - http://www.gnu.org/licenses/gpl-2.0.html
+- Licensed under GNU General Public License v3.0 - http://www.gnu.org/licenses/gpl-3.0.html
 
 - Bootstrap
 - Adds core styles and responsive structure
@@ -30,10 +30,15 @@ Blox Free responsive Wordpress theme
 - by David Furfero http://touchpunch.furf.com/
 - dual licensed under the MIT or GPL Version 2 licenses.
 
-- Noto Sans and Imprima
+- Arimo
 - Fonts using @import from Google
 - by Google http://www.google.com/fonts
-- licensed under the Creative Commons license (http://creativecommons.org/licenses/by/3.0/) Google.com
+- licensed under the Apache License, version 2.0 (http://www.apache.org/licenses/LICENSE-2.0.html)
+
+- Autour One
+- Fonts using @import from Google
+- by Google http://www.google.com/fonts
+- licensed under the SIL Open Font License, 1.1 (http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL)
 
 - All other images
 - by CyberChimps http://cyberchimps.com
