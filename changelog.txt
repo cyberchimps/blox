@@ -2,6 +2,10 @@ Blox Changelog
 
 ****************************
 
+Version 1.0.1 (11-20-13)
+- Added copyright text
+- Added new background image option.
+
 Version 1.0.0 (11-11-13)
 
 Initial release
