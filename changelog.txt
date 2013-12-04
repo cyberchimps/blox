@@ -2,6 +2,11 @@ Blox Changelog
 
 ****************************
 
+Version 1.0.2 (12-04-13)
+- Image size fix: Hooked add_image_size to after_setup_theme.
+- Deleted unused images.
+- Added TGM class to recommend responsive Add Ons.
+
 Version 1.0.1 (11-20-13)
 - Added copyright text
 - Added new background image option.
