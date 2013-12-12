@@ -1,4 +1,4 @@
-Blox Free responsive Wordpress theme
+Blox Free responsive WordPress theme
 ====================================
 
 - Blox Free, Copyright 2013
