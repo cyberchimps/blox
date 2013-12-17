@@ -2,7 +2,7 @@ Blox Changelog
 
 ****************************
 
-Version 1.0.4 (12-16-13)
+Version 1.0.5 (12-16-13)
 - Email and google map icon issue fixed.
 - Social icon issue in IE fixed.
 - Added larger screenshot for WP3.8.
