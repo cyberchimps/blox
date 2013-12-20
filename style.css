@@ -3,7 +3,7 @@ Theme Name: Blox
 Theme URI: http://cyberchimps.com/blox-free/
 Author: CyberChimps
 Author URI: http://www.cyberchimps.com/
-Description: Blox Free is a fully Responsive Drag & Drop Starter WordPress Theme that adds amazing new functionality to your WordPress website. Featuring Twitter Bootstrap, and responsive touch friendly theme options that work on any device.
+Description: Blox Free is a fully Responsive Drag & Drop Starter WordPress Theme that adds amazing new functionality to your WordPress website. Featuring Twitter Bootstrap, and responsive touch friendly theme options that work on any device. "Please use the <a href="http://cyberchimps.com/forum/">official support forum</a> (http://cyberchimps.com/forum/). Thank you."
 Version: 1.0.5
 Tags: black, dark, two-columns, right-sidebar, fixed-layout, responsive-layout, custom-background, custom-colors, custom-menu, featured-images, post-formats, theme-options, sticky-post
 License: GNU General Public License version 3
@@ -987,7 +987,7 @@ table#wp-calendar td {
 /******************************************** ELEMENTS **************************************************************/
 /********************************************************************************************************************/
 
-.box, .carousel, #recent_posts, #twitter_bar #twitter_text li, #cyberchimps_product, #gallery ul.row-fluid li#portfolio_wrap .portfolio-item, #callout {
+.box, .carousel, #recent_posts, #twitter_bar #twitter_text li, #cyberchimps_product, #portfolio #portfolio_wrap .portfolio-item, #callout {
 	-webkit-box-shadow: 1px 1px 0 1px #3a3a3a, 2px 2px 0 1px #3a3a3a, 3px 3px 0 1px #3a3a3a, 4px 4px 0 1px #3a3a3a, 5px 5px 0 1px #3a3a3a, 6px 6px 0 1px #3a3a3a, 7px 7px 0 1px #3a3a3a, 8px 8px 0 1px #3a3a3a, 9px 9px 0 1px #3a3a3a, 10px 10px 0 1px #3a3a3a;
 	-moz-box-shadow: 1px 1px 0 1px #3a3a3a, 2px 2px 0 1px #3a3a3a, 3px 3px 0 1px #3a3a3a, 4px 4px 0 1px #3a3a3a, 5px 5px 0 1px #3a3a3a, 6px 6px 0 1px #3a3a3a, 7px 7px 0 1px #3a3a3a, 8px 8px 0 1px #3a3a3a, 9px 9px 0 1px #3a3a3a, 10px 10px 0 1px #3a3a3a;
 	box-shadow: 1px 1px 0 1px #3a3a3a, 2px 2px 0 1px #3a3a3a, 3px 3px 0 1px #3a3a3a, 4px 4px 0 1px #3a3a3a, 5px 5px 0 1px #3a3a3a, 6px 6px 0 1px #3a3a3a, 7px 7px 0 1px #3a3a3a, 8px 8px 0 1px #3a3a3a, 9px 9px 0 1px #3a3a3a, 10px 10px 0 1px #3a3a3a;
@@ -999,15 +999,15 @@ table#wp-calendar td {
 	background: rgb(76, 77, 76);
 }
 
-#slider .carousel-control {
+#slider_lite .carousel-control {
 	border-color: #fbb963;
 	border-radius: 0;
 	color: #fbb963;
 	line-height: 30px;
 }
 
-#slider {
-	margin-bottom: 25px;
+#slider_lite {
+	margin-bottom: 35px;
 }
 
 /*==================================== WIDGET BOXES ===============================================*/
@@ -1079,7 +1079,7 @@ h2.box-widget-title {
 #gallery ul.row-fluid li#portfolio_wrap .portfolio-item {
 	margin-top: 10px;
 	margin-bottom: 25px;
-	padding: 20px 20px 0;
+	padding: 20px 20px;
 	background: #000000;
 }
 
