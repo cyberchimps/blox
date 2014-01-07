@@ -175,15 +175,6 @@ add_filter( 'cyberchimps_help_sub_heading', 'cyberchimps_options_help_sub_header
 
 // Branding images and defaults
 
-// Banner default
-function cyberchimps_banner_default() {
-	$url = '/images/branding/banner.jpg';
-
-	return $url;
-}
-
-add_filter( 'cyberchimps_banner_img', 'cyberchimps_banner_default' );
-
 //theme specific skin options in array. Must always include option default
 function cyberchimps_skin_color_options( $options ) {
 	// Get path of image

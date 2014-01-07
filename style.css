@@ -58,7 +58,7 @@ tr {
 }
 
 tr.odd {
-	background-color: #666666;
+	background-color: #333;
 }
 
 td {
@@ -77,13 +77,15 @@ dd {
 	margin-left: 26px;
 }
 
-ul, ol {
-	margin: 0 0 10px 0;
+table {
+	margin-bottom: 25px;
 }
-
+ul, ol { 
+	margin: 0 0 25px 0;
+}
 ol, ul {
-	margin-left: 21px;
-	list-style-position: inside;
+  margin-left: 21px;
+  list-style-position: inside;
 }
 
 pre {
@@ -91,6 +93,7 @@ pre {
 	border-radius: 0;
 	background-color: #666666;
 	color: #eeeeee;
+	margin-bottom: 25px;
 }
 
 code {
@@ -449,6 +452,7 @@ article.post, article.page, article.attachment {
 
 article {
 	background: #222222;
+	color: #999;
 	-webkit-box-shadow: 1px 1px 0 1px #3a3a3a, 2px 2px 0 1px #3a3a3a, 3px 3px 0 1px #3a3a3a, 4px 4px 0 1px #3a3a3a, 5px 5px 0 1px #3a3a3a, 6px 6px 0 1px #3a3a3a, 7px 7px 0 1px #3a3a3a, 8px 8px 0 1px #3a3a3a, 9px 9px 0 1px #3a3a3a, 10px 10px 0 1px #3a3a3a;
 	-moz-box-shadow: 1px 1px 0 1px #3a3a3a, 2px 2px 0 1px #3a3a3a, 3px 3px 0 1px #3a3a3a, 4px 4px 0 1px #3a3a3a, 5px 5px 0 1px #3a3a3a, 6px 6px 0 1px #3a3a3a, 7px 7px 0 1px #3a3a3a, 8px 8px 0 1px #3a3a3a, 9px 9px 0 1px #3a3a3a, 10px 10px 0 1px #3a3a3a;
 	box-shadow: 1px 1px 0 1px #3a3a3a, 2px 2px 0 1px #3a3a3a, 3px 3px 0 1px #3a3a3a, 4px 4px 0 1px #3a3a3a, 5px 5px 0 1px #3a3a3a, 6px 6px 0 1px #3a3a3a, 7px 7px 0 1px #3a3a3a, 8px 8px 0 1px #3a3a3a, 9px 9px 0 1px #3a3a3a, 10px 10px 0 1px #3a3a3a;
@@ -471,10 +475,10 @@ article {
 }
 
 blockquote {
-	margin: 20px 10px;
+	margin: 20px 10px 30px;
 	padding: 3px;
 	border-left: 2px solid #cccccc;
-	background-color: #666666;
+	background-color: #333;
 }
 
 blockquote p {
@@ -1015,6 +1019,7 @@ table#wp-calendar td {
 .box {
 	margin-bottom: 35px;
 	padding: 20px;
+	color: #777;
 	background: #000000;
 }
 
