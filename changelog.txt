@@ -2,6 +2,15 @@ Blox Changelog
 
 ****************************
 
+Version 1.0.14 (2-27-14)
+- Updated elements images along with boxes images.
+- Fixed Read more text option.
+- Responsive toggle fix: tweaked full-width-container width.
+- Background option fix.
+- Removed post format icon from page.
+- Updated screenshot.
+- Text color option fix.
+
 Version 1.0.13 (2-18-14)
 - Slider is made to be start sliding on page load.
 
