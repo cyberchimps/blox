@@ -100,7 +100,7 @@
 			<?php the_content(); ?>
 		</div><!-- .entry-summary -->
 	
-	<?php else :// blog post pages ?>
+	<?php elseif( is_home() ) :// blog post pages ?>
   	<?php if( cyberchimps_get_option( 'post_excerpts', 0 ) ): ?>
   		<div class="entry-summary">
       	<?php cyberchimps_featured_image(); ?>
@@ -113,8 +113,12 @@
 				<?php wp_link_pages( array( 'before' => '<div class="page-links">' . __( 'Pages:', 'blox' ), 'after' => '</div>' ) ); ?>
 			</div><!-- .entry-content -->
     <?php endif; ?>
-		
-	<?php endif; ?>
+	
+	<?php else: ?>
+			<div class="entry-content">
+				<?php the_content(); ?>
+			</div><!-- .entry-content -->	
+		<?php endif; ?>
 
 	<footer class="entry-meta">
 		<?php if ( 'post' == get_post_type() ) : // Hide category and tag text for pages on Search ?>
