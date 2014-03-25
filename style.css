@@ -144,6 +144,7 @@ header#cc-header h2.site-title {
 	margin-bottom: 20px;
 	padding-bottom: 5px;
 	font-size: 66px;
+	font-size: 5vw;
 	line-height: 1;
 }
 
@@ -1097,6 +1098,15 @@ a .portfolio-caption {
 /****************************************** MEDIA QUERIES ***********************************************************/
 /********************************************************************************************************************/
 
+/*==================================== TABLETS ====================================================*/
+
+@media (max-width: 767px) {
+	header#cc-header h2.site-title {
+		font-size: 45px;
+		font-size: 7vw;
+	}
+}
+
 /*==================================== PHONES ====================================================*/
 
 @media (max-width: 480px) {
@@ -1126,5 +1136,6 @@ a .portfolio-caption {
 	
 	header#cc-header h2.site-title {
 		font-size: 30px;
+		font-size: 10vw;
 	}
 }
