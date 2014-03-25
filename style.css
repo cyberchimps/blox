@@ -1123,4 +1123,8 @@ a .portfolio-caption {
 	header#cc-header .span5 #searchform {
 		float: none;
 	}
+	
+	header#cc-header h2.site-title {
+		font-size: 30px;
+	}
 }
