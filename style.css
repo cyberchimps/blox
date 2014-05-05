@@ -1015,6 +1015,10 @@ table#wp-calendar td {
 	margin-bottom: 35px;
 }
 
+#slider_lite .item > a {
+    margin: 0;
+}
+
 /*==================================== WIDGET BOXES ===============================================*/
 
 .box {
