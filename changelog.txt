@@ -1,6 +1,8 @@
 Blox Changelog
 
 ****************************
+Version 1.0.43 (16-07-15)
+- Change in theme customizer as per wordpress.org guidelines
 
 Version 1.0.42 (1-23-15)
 - Fixed conflict between slider free and pro plugin.
