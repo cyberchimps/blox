@@ -2,6 +2,9 @@ Blox Changelog
 
 ****************************
 
+Version 1.0.45 (02-12-15)
+- Fix few minor issues related to customization
+
 Version 1.0.44 (21-07-15)
 - Minor bug fixes
 
