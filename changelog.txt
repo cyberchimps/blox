@@ -2,6 +2,12 @@ Blox Changelog
 
 ****************************
 
+Version 1.0.46 (22-04-16)
+- Site Font issue fixed
+
+Version 1.0.45 (02-12-15)
+- Fix few minor issues related to customization
+
 Version 1.0.44 (21-07-15)
 - Minor bug fixes
 
