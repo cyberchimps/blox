@@ -1143,3 +1143,8 @@ a .portfolio-caption {
 		font-size: 10vw;
 	}
 }
+/* For box content exceeding the box div*/
+.box.span4 {
+    display: flex;
+    flex-wrap: wrap;
+}
