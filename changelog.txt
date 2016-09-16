@@ -2,6 +2,9 @@ Blox Changelog
 
 ****************************
 
+Version 1.0.47 (09-16-16)
+- Fixed display issue for box elements. 
+
 Version 1.0.46 (22-04-16)
 - Site Font issue fixed
 
