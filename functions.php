@@ -269,4 +269,10 @@ function cyberchimps_twitter_handle_filter() {
 }
 
 add_filter( 'cyberchimps_twitter_handle_filter', 'cyberchimps_twitter_handle_filter' );
+// enabling theme support for title tag
+function blox_title_setup() 
+{
+	add_theme_support( 'title-tag' );
+}
+add_action( 'after_setup_theme', 'blox_title_setup' );
 ?>
