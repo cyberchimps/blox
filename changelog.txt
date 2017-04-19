@@ -1,6 +1,9 @@
 Blox Changelog
 
 ****************************
+Version 1.1 (04-19-17)
+- Fixed issue with PHP version 7.1
+- Fixed issue with loading google fonts (used protocol relative link)
 
 Version 1.0.47 (09-21-16)
 - Fixed display issue for box elements. 
