@@ -1,7 +1,7 @@
 Blox Changelog
 
 ****************************
-Version 1.2 (07-21-17)
+Version 1.2 (07-24-17)
 - Added visible edit links in the customizer preview
 
 Version 1.1 (04-19-17)
