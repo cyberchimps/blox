@@ -1,6 +1,9 @@
 Blox Changelog
 
 ****************************
+Version 1.2 (07-24-17)
+- Added visible edit links in the customizer preview
+
 Version 1.1 (04-19-17)
 - Fixed issue with PHP version 7.1
 - Fixed issue with loading google fonts (used protocol relative link)
