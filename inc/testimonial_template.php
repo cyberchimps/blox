@@ -10,7 +10,7 @@ function blox_testimonial_render_display()
         $testimonials = array();
 	if(is_page())
 	{
-		$ir_testimonial_title = get_post_meta( $post->ID, 'ir_testimonial_title', true );
+		$blox_testimonial_title = get_post_meta( $post->ID, 'blox_testimonial_title', true );
  		$testimonial_background = get_post_meta( $post->ID, 'testimonial_background', true );
 		 // Get testimonial images
                 $testimonials[0]['img'] = get_post_meta( $post->ID, 'cyberchimps_blog_testimonial_image_one', true );
@@ -36,7 +36,7 @@ function blox_testimonial_render_display()
 	}
 	else
 	{
-		$ir_testimonial_title = cyberchimps_get_option('ir_testimonial_title');
+		$blox_testimonial_title = cyberchimps_get_option('ir_testimonial_title');
 		$testimonial_background = cyberchimps_get_option('testimonial_background');
 
                 // Get testimonial images
@@ -141,13 +141,13 @@ function blox_testimonial_render_display()
 				$testimonial_posts2 = get_posts( $testimonial_args ); */
 
 ?>
-	<div id="ir_testimonial_top">
-		<?php if( !empty($ir_testimonial_title) ) { ?>
+	<div id="blox_testimonial_top">
+		<?php if( !empty($blox_testimonial_title) ) { ?>
 
 
-				<?php if(!empty($ir_testimonial_title)) { ?>
-				<h2 class="ir_main_title">
-					<?php echo $ir_testimonial_title; ?>
+				<?php if(!empty($blox_testimonial_title)) { ?>
+				<h2 class="blox_main_title">
+					<?php echo $blox_testimonial_title; ?>
 				</h2>
 				<?php } ?>
 
@@ -156,22 +156,22 @@ function blox_testimonial_render_display()
 	</div>
 
 
-      <section class="ir_slider_text_img">
+      <section class="blox_slider_text_img">
         <div id="slider2" class="flexslider">
           <ul class="slides">
 			<?php	foreach( $testimonials as $testimonial) {
         					 ?>
 
 				<li class="col-md-12">
-                                    <span class="ir_testimonial_text"><?php if(!empty($testimonial['text'])){echo $testimonial['text'];} ?></span>
+                                    <span class="blox_testimonial_text"><?php if(!empty($testimonial['text'])){echo $testimonial['text'];} ?></span>
 					<?php if(!empty($testimonial['text']))
 							{ ?>
 							<hr class="after_testimonial_text"> </hr>
 					<?php } ?>
-					<div class="ir_testimonial_author">
+					<div class="blox_testimonial_author">
                                                 <?php  if(!empty($testimonial['client'])){echo $testimonial['client'];} ?>
 					</div>
-					<div class="ir_testimonial_abt_author">
+					<div class="blox_testimonial_abt_author">
                                                 <?php if(!empty($testimonial['client_abt'])){echo $testimonial['client_abt'];} ?>
 					</div>
 				</li>
@@ -182,7 +182,7 @@ function blox_testimonial_render_display()
         </div>
 	<?php $slide_counters = 0; ?>
         <div id="carousel2" class="flexslider">
-          <ul class="slides ir_carousel" >
+          <ul class="slides blox_carousel" >
 			<?php	foreach( $testimonials as $testimonial ) {
                           if(!empty($testimonial['img'])){
 

@@ -119,7 +119,7 @@ header {
 	clear: left;
 }
 .site-title, .box-widget-title, .entry-title, .widget-title, .recent_posts_post_title,
-#callout_section_section, .carousel_caption, .cyberchimps-product-title, .respond-title, .comments-title, #portfolio_pro_section h2, #ir_testimonial_top h2, #contact_us h2 {
+#callout_section_section, .carousel_caption, .cyberchimps-product-title, .respond-title, .comments-title, #portfolio_pro_section h2, #blox_testimonial_top h2, #contact_us h2 {
   font-family: lobster, cursive;
 }
 /********************************************************************************************************************/
@@ -1037,7 +1037,7 @@ h2.box-widget-title {
 	margin-bottom: 15px;
 	color: #fbb963;
 	text-align: center;
-	font-size: 1.4em;ir_testimonial_top
+	font-size: 1.4em;
 	line-height: 1em;
 }
 
@@ -1165,7 +1165,7 @@ a .portfolio-caption {
 {
     margin: 2% 0 10% 0;
 }
-.ir_main_title{
+.blox_main_title{
       margin-top: 80px;
       text-align: center;
       font-size: 1.8em;
@@ -1181,14 +1181,14 @@ a .portfolio-caption {
     list-style: none;
  }
 
-	.slides.ir_carousel {
+	.slides.blox_carousel {
     max-width: 100%;
     display: inline-block;
     padding-top: 20px;
     width: auto !important;
 }
 
-	#testimonial_section .ir_short_desc {
+	#testimonial_section .blox_short_desc {
       margin-top: 80px;
 }
 
@@ -1206,17 +1206,17 @@ a .portfolio-caption {
       margin: 0 auto;
       left: 0;
       right: 0; }
-    #testimonial_section .ir_slider_text_img {
+    #testimonial_section .blox_slider_text_img {
       color: #fff; }
-      #testimonial_section .ir_slider_text_img li {
+      #testimonial_section .blox_slider_text_img li {
 	    width: auto;
         text-align: center;
 	}
 
-    #testimonial_section .ir_testimonial_author {
+    #testimonial_section .blox_testimonial_author {
       font-weight: 600;
       font-size: 1.125em; }
-    #testimonial_section .ir_testimonial_abt_author {
+    #testimonial_section .blox_testimonial_abt_author {
       font-weight: 500;
       margin-bottom: 12%; }
     #testimonial_section .after_testimonial_text {
@@ -1249,7 +1249,7 @@ a .portfolio-caption {
         position: relative;
         font-size: 16px;
     }
-    .ir_main_title{
+    .blox_main_title{
         margin-top: 80px;
         text-align: center;
     }
@@ -1319,7 +1319,7 @@ a .portfolio-caption {
 	    .contact_addr {
 	    padding-bottom: 10px;
 	    }
-	    .ir_testimonial_text{
+	    .blox_testimonial_text{
 	    padding: 0 20px;
 	    }
 	}
