@@ -24,7 +24,7 @@ add_action( 'after_setup_theme', 'cyberchimps_text_domain' );
 // Load Core
 require_once( get_template_directory() . '/cyberchimps/init.php' );
 require( get_template_directory() . '/inc/admin-about.php' );
-
+require_once( get_template_directory() . '/inc/testimonial_template.php' );
 // Set the content width based on the theme's design and stylesheet.
 if( !isset( $content_width ) ) {
 	$content_width = 640;
@@ -324,6 +324,18 @@ function blox_customize_edit_links( $wp_customize ) {
 add_action( 'customize_register', 'blox_customize_edit_links' );
 add_theme_support( 'customize-selective-refresh-widgets' );
 
+/**
+ * [blox_enqueue description]
+ *
+ * @return void
+ */
+function blox_enqueue() {
+	$directory_uri = get_template_directory_uri();
+	wp_enqueue_script( 'jquery-flexslider', $directory_uri . '/inc/js/jquery.flexslider.js', 'jquery', '1.0', true );
+}
+add_action( 'wp_enqueue_scripts', 'blox_enqueue' );
+
+
 add_action( 'admin_notices', 'blox_admin_notices' );
 function blox_admin_notices()
 {
@@ -395,3 +407,10 @@ function blox_admin_notices()
 	}
 
 }
+function blox_set_defaults()
+{
+
+	remove_action('testimonial', array( CyberChimpsTestimonial::instance(), 'render_display' ));
+	add_action('testimonial', 'blox_testimonial_render_display');
+}
+add_action( 'init', 'blox_set_defaults' );
