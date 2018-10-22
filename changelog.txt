@@ -2,7 +2,7 @@ Blox Changelog
 
 ****************************
 Version 1.3 (10-22-18)
-- Fixed Minor css
+- Added testimonial and contact us element
 
 Version 1.2 (07-24-17)
 - Added visible edit links in the customizer preview
