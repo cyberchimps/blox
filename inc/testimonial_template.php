@@ -10,7 +10,7 @@ function blox_testimonial_render_display()
         $testimonials = array();
 	if(is_page())
 	{
-		$blox_testimonial_title = get_post_meta( $post->ID, 'blox_testimonial_title', true );
+		$blox_testimonial_title = get_post_meta( $post->ID, 'ir_testimonial_title', true );
  		$testimonial_background = get_post_meta( $post->ID, 'testimonial_background', true );
 		 // Get testimonial images
                 $testimonials[0]['img'] = get_post_meta( $post->ID, 'cyberchimps_blog_testimonial_image_one', true );
@@ -79,51 +79,14 @@ function blox_testimonial_render_display()
         }
         else
         {
-          if($skin_color == 'black-red')
-          {
-
-          ?>
-            <style>
-                      #testimonial_section{
-                          background-color: <?php echo '#cd0a00';?>;
+    	?>
+		<style>
+            #testimonial_section{
+                          background-color: <?php echo '#999';?>;
                       }
             </style>
            <?php
           }
-          if($skin_color == 'blue-orange')
-          {
-           ?>
-            <style>
-                      #testimonial_section{
-                          background-color: <?php echo '#135771';?>;
-                      }
-            </style>
-           <?php
-          }
-          if($skin_color == 'red-green')
-          {
-             ?>
-            <style>
-                      #testimonial_section{
-                          background-color: <?php echo '#859950';?>;
-                      }
-            </style>
-           <?php
-          }
-          else
-          {
-            ?>
-            <style>
-                      #testimonial_section{
-                          background-color: <?php echo '#7fa6a6';?>;
-                      }
-            </style>
-            <?php
-
-          }
-
-
-        }
         ?>
 
 <?php
